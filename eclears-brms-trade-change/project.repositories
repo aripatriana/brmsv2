@@ -3,17 +3,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central-mirror</id>
-        <url>http://wakatobi.telkomsigma.co.id/nexus/content/repositories/cr-eae-framework-snapshot/cr-eae-framework-snapshot/central</url>
+        <id>guvnor-m2-repo</id>
+        <url>http://localhost:8080/business-central/maven2/</url>
         <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>fuse-snapshots-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public-snapshots/</url>
-        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -27,8 +19,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>cr-eae-framework-snapshot</id>
-        <url>http://wakatobi.telkomsigma.co.id/nexus/content/repositories/cr-eae-framework-snapshot/cr-eae-framework-snapshot</url>
+        <id>fuse-snapshots-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/public-snapshots/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -43,8 +35,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>guvnor-m2-repo</id>
-        <url>http://localhost:8080/business-central/maven2/</url>
+        <id>cr-eae-framework-snapshot</id>
+        <url>http://wakatobi.telkomsigma.co.id/nexus/content/repositories/cr-eae-framework-snapshot/cr-eae-framework-snapshot</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>central-mirror</id>
+        <url>http://wakatobi.telkomsigma.co.id/nexus/content/repositories/cr-eae-framework-snapshot/cr-eae-framework-snapshot/central</url>
         <source>PROJECT</source>
       </metadata>
     </repository>

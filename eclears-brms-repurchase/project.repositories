@@ -3,8 +3,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>cr-eae-framework-snapshot</id>
-        <url>http://wakatobi.telkomsigma.co.id/nexus/content/repositories/cr-eae-framework-snapshot/cr-eae-framework-snapshot</url>
+        <id>guvnor-m2-repo</id>
+        <url>http://localhost:8080/business-central/maven2/</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>redhat-techpreview-all-repository</id>
+        <url>http://maven.repository.redhat.com/techpreview/all/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -19,25 +27,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>redhat-techpreview-all-repository</id>
-        <url>http://maven.repository.redhat.com/techpreview/all/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>guvnor-m2-repo</id>
-        <url>http://localhost:8080/business-central/maven2/</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>local</id>
         <url>C:\Users\user/.m2/repository</url>
         <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>cr-eae-framework-snapshot</id>
+        <url>http://wakatobi.telkomsigma.co.id/nexus/content/repositories/cr-eae-framework-snapshot/cr-eae-framework-snapshot</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
